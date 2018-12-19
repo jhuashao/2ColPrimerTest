@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jhuashao/annetteliu.git"
+    "url": "git+https://github.com/jhuashao/2ColPrimerTest.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jhuashao/annetteliu/issues"
+    "url": "https://github.com/jhuashao/2ColPrimerTest/issues"
   },
-  "homepage": "https://github.com/jhuashao/annetteliu#readme",
+  "homepage": "https://github.com/jhuashao/2ColPrimerTest#readme",
   "dependencies": {
     "primer": "^10.10.2"
   }
