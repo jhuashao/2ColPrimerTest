@@ -2,6 +2,14 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
+// Responsive Padding above Subhead
+
+@media (min-width: 0px) {
+  .pt-xs-2 {
+    padding-top: 8px !important;
+  }
+}
+
 @import "primer-core/index.scss";
 
 // Dropdown SCSS
