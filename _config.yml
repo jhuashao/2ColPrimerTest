@@ -1,0 +1,6 @@
+sass:
+  # Where you keep your scss files
+  sass_dir: css/
+  # Where sass should look for other scss
+  load_paths:
+    - node_modules/
