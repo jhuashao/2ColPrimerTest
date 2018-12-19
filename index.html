@@ -6,6 +6,73 @@
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <div class="bg-gray-dark p-4 text-white width-full">Github Header</div>
+
+    <div class="  d-flex flex-column flex-lg-row container-lg mt-4 p-responsive">
+
+      <!--  Navigation Menu https://styleguide.github.com/primer/components/navigation/#menu -->
+    
+      <div class="  d-none d-lg-flex flex-column col-md-3 mr-3">
+        <nav class="menu" aria-label="Person settings">
+          <a class="menu-item selected" href="#url" aria-current="page">Account</a>
+          <a class="menu-item" href="#url">Profile</a>
+          <a class="menu-item" href="#url">Emails</a>
+          <a class="menu-item" href="#url">Notifications</a>
+        </nav>
+      </div>
+    
+      <!--  Dropdown -->
+        <details class="dropdown details-reset details-overlay d-flex d-lg-none pb-3 border-bottom" >
+          <summary class="btn" aria-haspopup="true">
+            Dropdown
+            <div class="dropdown-caret flex-self-stretch  "></div>
+          </summary>
+    
+          <ul class="dropdown-menu dropdown-menu-se ">
+            <li><a class="dropdown-item" href="#url">Dropdown item</a></li>
+            <li><a class="dropdown-item" href="#url">Dropdown item</a></li>
+            <li><a class="dropdown-item" href="#url">Dropdown item</a></li>
+          </ul>
+        </details>
+    
+      <!-- Body Content -->
+      <div class="  col-lg-9 col-12">
+        <div class="Subhead ">
+          <h2 class="Subhead-heading">2-Column Responsive Demo
+        </div>
+    
+        <!-- Forms -->
+        <form>
+          <dl class="form-group">
+            <dt><label for="example-text">Example Text</label></dt>
+            <dd><input class="form-control" type="text" value="Example Value" id="example-text"></dd>
+          </dl>
+    
+          <dl class="form-group">
+            <dt><label for="example-select">Example Select</label></dt>
+            <dd>
+              <select class="form-select" id="example-select">
+            <option>Choose an option</option>
+            <option>Git</option>
+            <option>Subversion</option>
+            <option>Social Coding</option>
+            <option>Beets</option>
+            <option>Bears</option>
+            <option>Battlestar Galactica</option>
+          </select>
+            </dd>
+          </dl>
+    
+          <dl class="form-group">
+            <dt><label for="example-textarea">Example Textarea</label></dt>
+            <dd>
+              <textarea class="form-control" id="example-textarea"></textarea>
+            </dd>
+          </dl>
+        </form>
+    
+      </div>
+    
+    </div>
   </body>
 </html>

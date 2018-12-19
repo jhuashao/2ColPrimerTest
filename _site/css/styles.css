@@ -7206,5 +7206,80 @@ a.tabnav-extra:hover {
     height: auto;
     clip: auto; }
 
-body {
-  background-color: black; }
+.dropdown {
+  position: relative; }
+  .dropdown.active .dropdown-menu-content {
+    display: block;
+    pointer-events: all; }
+
+.dropdown-caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: middle;
+  content: "";
+  border: 4px solid;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent; }
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 2px;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 4px;
+  box-shadow: 0 3px 12px rgba(27, 31, 35, 0.15); }
+  .dropdown-menu::before, .dropdown-menu::after {
+    position: absolute;
+    display: inline-block;
+    content: ""; }
+  .dropdown-menu::before {
+    border: 8px solid transparent;
+    border-bottom-color: rgba(27, 31, 35, 0.15); }
+  .dropdown-menu::after {
+    border: 7px solid transparent;
+    border-bottom-color: #fff; }
+  .dropdown-menu > ul {
+    list-style: none; }
+
+.dropdown-menu-no-overflow {
+  width: auto; }
+  .dropdown-menu-no-overflow .dropdown-item {
+    padding: 4px 15px;
+    overflow: visible;
+    text-overflow: inherit; }
+
+.dropdown-item {
+  display: block;
+  padding: 4px 10px 4px 15px;
+  overflow: hidden;
+  color: #24292e;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+  .dropdown-item:focus, .dropdown-item:hover, .dropdown-item.zeroclipboard-is-hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #0366d6;
+    outline: none; }
+    .dropdown-item:focus > .octicon, .dropdown-item:hover > .octicon, .dropdown-item.zeroclipboard-is-hover > .octicon {
+      color: inherit;
+      opacity: 1; }
+  .dropdown-item.btn-link {
+    width: 100%;
+    text-align: left; }
+
+.dropdown-menu-se::before {
+  top: -16px;
+  left: 9px; }
+.dropdown-menu-se::after {
+  top: -14px;
+  left: 10px; }

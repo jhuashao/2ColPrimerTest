@@ -1,5 +1,5 @@
 {
-  "name": "annetteliu",
+  "name": "2ColPrimerTest",
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/jhuashao/annetteliu#readme",
   "dependencies": {
-    "primer": "^10.10.1"
+    "primer": "^10.10.2"
   }
 }
